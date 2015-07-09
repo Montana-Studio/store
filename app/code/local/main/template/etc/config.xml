@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <main-template>
+            <version>0.0.1</version>
+        </main-template>
+    </modules>
+    <global>
+        <page>
+            <layouts>
+                <main-template module="page" translate="label">
+                    <label>Main Template</label>
+                    <template>page/main-template.phtml</template>
+                    <layout_handle>main-template</layout_handle>
+                </main-template>
+            </layouts>
+        </page>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <main-template>
+                    <file>main-template.xml</file>
+                </main-template>
+            </updates>
+        </layout>
+    </frontend>
+</config>

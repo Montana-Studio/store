@@ -1,0 +1,5 @@
+a:5:{i:0;s:52:"Front controller reached 100 router match iterations";i:1;s:481:"#0 /Users/maurorios/Documents/Localhost/magento/app/code/core/Mage/Core/Controller/Varien/Front.php(179): Mage::throwException('Front controlle...')
+#1 /Users/maurorios/Documents/Localhost/magento/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Controller_Varien_Front->dispatch()
+#2 /Users/maurorios/Documents/Localhost/magento/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#3 /Users/maurorios/Documents/Localhost/magento/index.php(87): Mage::run('', 'store')
+#4 {main}";s:3:"url";s:62:"/magento/skin/frontend/base/default/images/opc-ajax-loader.gif";s:11:"script_name";s:18:"/magento/index.php";s:4:"skin";s:8:"mediakit";}
